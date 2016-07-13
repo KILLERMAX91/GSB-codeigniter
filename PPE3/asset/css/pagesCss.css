@@ -1,0 +1,20 @@
+body {background-color: white} 
+label.titre { width : 200px ;  clear:left; float:left; } 
+#titre{position:relative;color:#AAAAFF;text-align:center;top:20px;font-size:25px;}
+
+
+#FormNouveauRendue{
+    position:relative;
+    width:1300px;
+    left:0px;
+}
+    #tableauMedicament{
+        position:absolute;
+        top:50px;
+        left:670px;
+        height:300px;
+        width:600px;
+    }
+        #tableMedoc{
+           
+        }

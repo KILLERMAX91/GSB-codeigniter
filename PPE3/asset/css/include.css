@@ -1,0 +1,128 @@
+@CHARSET "ISO-8859-1";
+body {
+	  background: #e9e9e9;
+	  color: #666666;
+	  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+	  font-size: 14px;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+}
+.barreHaut{
+	position:fixed;
+	z-index:50;
+	height: 10%;
+	width:100%;
+	left:0px;
+	top:0px;
+	background-color: #ffffff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+}
+
+    #infoUtilisateur{
+         position:absolute;
+         bottom:20px;
+         left:10px;
+    }
+.lien{
+	text-decoration: none;
+	color:#0000FF;
+}
+.lien:hover{
+	text-decoration: underline;
+	color:#0000FF;
+}
+.lien:active{
+	text-decoration: none;
+	color:#FF0000;
+}
+#Block404{
+	position:relative;
+	width:500px;
+	height:300px;
+	background-color: #ffffff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	text-align:center;
+}
+	#lien404{
+		position:relative;
+		top:150px;
+		
+	}
+	#url404{
+		border:1px dashed #666666;
+		padding:2px 5px;
+	}
+#espace-barreHaut{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:80px;
+}
+#millieuBarre{
+	position:relative;
+	top:0%;
+	width:100%;
+	height:2%;
+}
+#barreBas{
+	position:absolute;
+	left:0px;
+	width:100%;
+	height:9.7%;
+	min-height:50px;
+	background-color: #ffffff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.barreHaut input:focus {
+  border: 1px solid #33b5e5;
+  color: #333333;
+}
+.barreHaut input[type="submit"] {
+	position:relative;
+  cursor: pointer;
+  height:40px;
+  width: 200px;
+  top:17px;
+  left:20px;
+
+  
+  
+}
+#lienDeconnect{
+	position:relative;
+  
+  top:17px;
+  left:20px;   
+}
+.barreHaut h2 {
+position:relative;
+top:17%;	
+
+left:10px;
+  margin: 0 0 0px;
+  color: #33b5e5;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 0;
+}
+
+
+#menu { 
+    height:20%; 
+    width: auto;
+    margin: auto; 
+    list-style-type: none; 
+    float: none; 
+    position: relative;
+    text-align:right;
+    margin-right:10%;
+
+}
+
+#menu a { width: auto; height: auto; margin-top: 1%; display: inline-block; margin:auto; text-decoration: none; font-weight: lighter; color: #ffffff; background-color:deepskyblue; padding: 10px;}
+#menu a:hover { background-color:orange; } 
+
+
